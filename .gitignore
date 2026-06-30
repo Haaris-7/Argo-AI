@@ -34,6 +34,8 @@ __pycache__/
 *.egg-info/
 .eggs/
 .venv/
+.deps/
+*.db
 venv/
 env/
 .pytest_cache/
@@ -58,3 +60,16 @@ Thumbs.db
 .idea/
 .vscode/
 *.swp
+.next/
+node_modules/
+frontend/.env.local
+frontend/playwright-report/
+frontend/test-results/
+
+# ─────────────────────────────────────────────
+# Docker & runtime
+# ─────────────────────────────────────────────
+*.sqlite3
+*.sqlite
+docker-compose.override.yml
+.impeccable/
