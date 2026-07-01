@@ -8,7 +8,7 @@
 
 ### SECTION 1: The Problem (0:00–0:18)
 
-> **[SCREEN: Show the Hugo cockpit overview page]**
+> **[SCREEN: Show the Hugo dashboard overview page]**
 >
 > Running an influencer marketing campaign today means weeks of manual work — finding creators,
 > sending fixed creator offers, managing payments, checking content quality. A single campaign can involve
@@ -61,7 +61,7 @@
 > The System page confirms Nemotron 3 Ultra is responding through NemoClaw, vision QA is online,
 > Stripe Connect is ready, and Gmail is authenticated.
 >
-> **[SCREEN: Create a new campaign in the cockpit]**
+> **[SCREEN: Create a new campaign in the dashboard]**
 >
 > We create a campaign: "Summer Glow Serum Launch" for a skincare brand, $500 budget on TikTok,
 > set to full autonomy mode.
@@ -137,7 +137,7 @@
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
 │  ┌─────────────────────┐         ┌──────────────────────────────────────┐  │
-│  │   OPERATOR COCKPIT  │         │        HERMES AGENT (NemoClaw)       │  │
+│  │   OPERATOR DASHBOARD │         │        HERMES AGENT (NemoClaw)       │  │
 │  │   (Next.js / React) │         │                                      │  │
 │  │                     │         │  ┌─────────────────────────────────┐  │  │
 │  │  • Campaign creation│         │  │  Nemotron 3 Ultra (550B)        │  │  │
@@ -529,7 +529,7 @@
 - Safety checks block secrets/PII from entering learning content
 
 **Presentation:**
-- Clean operator cockpit with campaign workspace (7 tabs: summary, strategy, creators, deliverables, finance, learning, activity)
+- Clean operator dashboard with campaign workspace (7 tabs: summary, strategy, creators, deliverables, finance, learning, activity)
 - Real-time task monitoring with preflight status and retry controls
 - System page with live probes showing model latency and connection health
 - Setup wizard validates all credentials before first campaign
